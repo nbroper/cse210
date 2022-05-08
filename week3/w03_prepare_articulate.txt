@@ -1,0 +1,7 @@
+Nathan Roper
+CSE210
+Week 3
+
+Abstraction is simplifying something that is complex.  Its a way to focus on specific aspects of a "thing" and not get weighed down by all of the other characteristics that make it a fully dimensional. In programming we benefit from abstraction by using built in functions that hide complex tasks.  Much like when a user clicks on a button in a GUI there is much that happens out of their view to process that 'click' and provide the user with their desired result. When we create a variable and set its value or call a function, there are many things that happen instantly, out of our view, that just happen and allow us to focus on the task at hand. Abstraction allows us to hide irrelevant data and processes to increase efficiency and reduce complexity.
+
+An example of abstraction from this weeks assignment is by importing and using "random" in the die class.  We "import random" and then during the roll method we call it -self.value = random.randint(1, 6)- to randomly select a number between one and six but we aren't privy to how that actually happens.  We just trust that it does actually pick a random number within the parameters that we provide.  This is why abstraction is so powerful.  If we had to write code to calculate a random number it would make our task so much more complicated.  Because this task was deemed to be important someone else wrote code for it and included it into the python software.  
